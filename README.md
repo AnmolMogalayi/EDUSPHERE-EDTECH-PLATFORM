@@ -3,7 +3,7 @@
 </h1>
 
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=24&pause=1000&color=00C4FF&center=true&vCenter=true&width=435&lines=Empower+Learning+with+Edusphere!;Admin+%7C+Instructor+%7C+Student+Modules;Quiz+Builder+%7C+Secure+Auth+%7C+Progress+Tracking" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=24&duration=3000&pause=1000&color=00FEEF&center=true&width=435&lines=Course+Builder;Secure+Auth;Track+Progress)](https://git.io/typing-svg" alt="Typing SVG" />
 </p>
 
 <p align="center">
