@@ -1,79 +1,114 @@
-# Edusphere
+<h1 align="center">
+  🚀 Edusphere – Full-Stack EdTech Platform
+</h1>
 
-Edusphere is an ED Tech (Education Technology) web application developed using the MERN stack.
+<p align="center">
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=24&pause=1000&color=00C4FF&center=true&vCenter=true&width=435&lines=Empower+Learning+with+Edusphere!;Admin+%7C+Instructor+%7C+Student+Modules;Quiz+Builder+%7C+Secure+Auth+%7C+Progress+Tracking" alt="Typing SVG" />
+</p>
 
-## Note
+<p align="center">
+  <img src="https://img.shields.io/badge/License-MIT-green.svg" />
+  <img src="https://img.shields.io/badge/Tech%20Stack-MERN-blue" />
+  <img src="https://img.shields.io/badge/Status-Active-brightgreen" />
+  <img src="https://img.shields.io/github/languages/top/AnmolMogalayi/EDUSPHERE-EDTECH-PLATFORM" />
+</p>
 
-This project is intended as a learning tool and can be used as a sample project for educational or personal projects.
+---
+
+## ✨ Overview
+
+**Edusphere** is a powerful and scalable EdTech web application built using the MERN stack. It features **role-based modules** for **Admin**, **Instructor**, and **Student**, allowing seamless course management, quiz creation, certification, and personalized learning experiences.
+
+---
+
+## 🔥 Features
+
+### ✅ General
+- 🔐 Authentication with JWT
+- 📧 Email verification & OTP-based signup
+- 🖼️ Cloudinary image/video upload
+- 📊 Dashboard with analytics
+
+### 👨‍🏫 Instructor Module
+- Create & manage courses
+- Upload videos, thumbnails, descriptions
+- Add quizzes during course creation
+- Edit courses and quiz content anytime
+
+### 🎓 Student Module
+- Enroll in courses (free/paid)
+- Watch video lessons with progress tracking
+- Attempt quizzes (unlocked post-course completion)
+- Earn downloadable certificates
+
+### 👨‍💼 Admin Module
+- Manage users, instructors, courses
+- Approve or reject instructor/course requests
+- Monitor platform usage with analytics
+
+---
+
+## 🧠 Tech Stack
+
+| Tech          | Role                         |
+|---------------|------------------------------|
+| React.js      | Frontend UI                  |
+| Redux Toolkit | State Management             |
+| Tailwind CSS  | UI Styling                   |
+| Node.js       | Backend Runtime              |
+| Express.js    | Server Framework             |
+| MongoDB       | NoSQL Database               |
+| Cloudinary    | Media Uploads                |
+| JWT           | Auth & Role Management       |
+| Razorpay      | Payments Integration         |
+
+---
+
+## 🚀 Getting Started
+
+### 1. Clone the Repository
+
+```bash
+git clone https://github.com/AnmolMogalayi/EDUSPHERE-EDTECH-PLATFORM.git
+cd EDUSPHERE-EDTECH-PLATFORM
+
+### 2. Backend Setup
+
+cd backend
+npm install
+npm nodemon index.js
+
+### 3. Frontend Setup
+
+cd client
+npm install
+npm start
+
+##Ensure .env files for both backend and frontend contain valid credentials (Mongo URI, JWT secret, Razorpay keys, Cloudinary keys).##
+
+🧪 Future Enhancements:
+
+📱 Mobile responsive PWA
+
+📄 Dynamic certificate PDF generator
+
+🧪 Advanced quiz analytics for instructors
+
+🛡️ Smart contract for credential verification
+
+## 📄 License
+
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
+
+This project is licensed under the **MIT License** — feel free to use and modify it as per your needs.
 
 
-***
-## Features
+## 👨‍💻 Author
 
-* User Authentication: Edusphere provides secure user registration and authentication using JWT (JSON Web Tokens). Users can sign up, log in, and manage their 
-  profiles with ease.
-  
-* Courses and Lessons: Instructors can create and edit created courses. Students can enroll in courses, access course materials, and track their progress.
-* Progress Tracking: Edusphere allows students to track their progress in enrolled courses. They can view completed lessons, scores on quizzes and 
-  assignments, and overall course progress.
-  
-* Payment Integration: Edusphere integrates with Razorpay for payment processing. Users can make secure payments for course enrollment and other services 
-  using various payment methods supported by Razorpay.
-  
-* Search Functionality: Users can easily search for courses, lessons, and resources using the built-in search feature. This makes it convenient to find relevant 
-  content quickly.
-  
-* Instructor Dashboard: Instructors have access to a comprehensive dashboard to view information about their courses, students, and income. The 
- dashboard provides charts and visualizations to present data clearly and intuitively. Instructors can monitor the total number of students enrolled in 
- each course, track course performance, and view their income generated from course sales.
+**Anmol Mogalayi**  
+MCA Student | Full-Stack Developer | Passionate about EdTech  
 
-  
-***
-## Screenshots
-![Screenshot 2023-07-25 210844](https://github.com/himanshu8443/Study-Notion-master/assets/99420590/0cba8d5b-6a47-4721-ac9f-4279107c257e)
-![Screenshot 2023-07-25 211309](https://github.com/himanshu8443/Study-Notion-master/assets/99420590/62c33b56-0bd5-4330-b1db-d41b80d9f69f)
-<details>
-  <summary>More screenshots</summary>
-  
-![Screenshot 2023-07-25 211451](https://github.com/himanshu8443/Study-Notion-master/assets/99420590/63f7163d-a74a-4e78-bc78-6b96b06073f9)
-![image](https://github.com/himanshu8443/Study-Notion-master/assets/99420590/59d1d8c2-2824-45bb-a2f7-6f5dc234895c)
-</details>
-
-***
-
-## Important
-* Backend is  in the server folder.
-* Before uploading courses and anything create the categories e.g. web dev, Python, etc. (without categories courses cannot be added). To create categories create an Admin account and go to dashboard then admin panel.
-* To create an Admin account first sign up with a student or instructor account then go to your Database under the users model and change that 'accountType' to 'Admin'.
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-AnmolMogalayi-blue?style=for-the-badge&logo=linkedin)](https://linkedin.com/in/anmolmogalayi)  
+[![Email](https://img.shields.io/badge/Email-anmolmogalayi@gmail.com-red?style=for-the-badge&logo=gmail)](mailto:anmolmogalayi@gmail.com)
 
 
-## Installation
-
-1. Clone the repository to your local machine.
-    ```sh
-    git clone https://github.com/himanshu8443/Study-Notion-master.git
-    ```
-
-2. Install the required packages.
-    ```sh
-    cd Study-Notion-master
-    npm install
-    
-    cd server
-    npm install
-    ```
-
-3. Set up the environment variables:
-
-   Create a .env file in the root directory and /server
-   Add the required environment variables, such as database connection details, JWT secret, and any other necessary configurations check .env.example files for more info.
-
-
-4. Start the development server.
-    ```sh
-    npm run dev
-    ```
-
-5. Open the project in your browser at [`http://localhost:3000`](http://localhost:3000) to view your project.
-
-The project is set up to use `postcss-cli` to process your CSS files. You can add your own `tailwind.config.js` file to customize your Tailwind setup.
