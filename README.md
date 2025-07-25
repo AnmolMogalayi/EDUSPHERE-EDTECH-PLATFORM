@@ -86,9 +86,9 @@ npm install
 npm start
 
 ✅ Ensure .env files for both backend and frontend contain valid credentials (Mongo URI, JWT secret, Razorpay keys, Cloudinary keys).
+```
 
 ---
-```
 
 ## 🔮 Future Enhancements
 
@@ -101,8 +101,9 @@ npm start
 
 ## 📄 License
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)  
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://github.com/AnmolMogalayi/EDUSPHERE-EDTECH-PLATFORM/blob/main/LICENSE)  
 This project is licensed under the **MIT License** – feel free to use and modify it as per your needs.
+
 
 ---
 
