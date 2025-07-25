@@ -3,8 +3,9 @@
 </h1>
 
 <p align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=24&duration=3000&pause=1000&color=00FEEF&center=true&width=435&lines=Course+Builder;Secure+Auth;Track+Progress)](https://git.io/typing-svg" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=24&duration=3000&pause=1000&color=00FEEF&center=true&width=435&lines=Course+Builder;Secure+Auth;Track+Progress" alt="Typing SVG" />
 </p>
+
 
 <p align="center">
   <img src="https://img.shields.io/badge/License-MIT-green.svg" />
@@ -72,43 +73,45 @@
 git clone https://github.com/AnmolMogalayi/EDUSPHERE-EDTECH-PLATFORM.git
 cd EDUSPHERE-EDTECH-PLATFORM
 
-### 2. Backend Setup
+## 2. Backend Setup
 
 cd backend
 npm install
 npm nodemon index.js
 
-### 3. Frontend Setup
+## 3. Frontend Setup
 
 cd client
 npm install
 npm start
 
-##Ensure .env files for both backend and frontend contain valid credentials (Mongo URI, JWT secret, Razorpay keys, Cloudinary keys).##
+✅ Ensure .env files for both backend and frontend contain valid credentials (Mongo URI, JWT secret, Razorpay keys, Cloudinary keys).
 
-🧪 Future Enhancements:
+---
+```
 
-📱 Mobile responsive PWA
+## 🔮 Future Enhancements
 
-📄 Dynamic certificate PDF generator
+- 📱 Mobile responsive PWA  
+- 🪪 Dynamic certificate PDF generator  
+- 📊 Advanced quiz analytics for instructors  
+- 🔐 Smart contract for credential verification  
 
-🧪 Advanced quiz analytics for instructors
-
-🛡️ Smart contract for credential verification
+---
 
 ## 📄 License
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)  
+This project is licensed under the **MIT License** – feel free to use and modify it as per your needs.
 
-This project is licensed under the **MIT License** — feel free to use and modify it as per your needs.
-
+---
 
 ## 👨‍💻 Author
 
 **Anmol Mogalayi**  
-MCA Student | Full-Stack Developer | Passionate about EdTech  
+*MCA Student | Full-Stack Developer | Passionate about EdTech*  
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-AnmolMogalayi-blue?style=for-the-badge&logo=linkedin)](https://linkedin.com/in/anmolmogalayi)  
-[![Email](https://img.shields.io/badge/Email-anmolmogalayi@gmail.com-red?style=for-the-badge&logo=gmail)](mailto:anmolmogalayi@gmail.com)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-AnmolMogalayi-blue?style=for-the-badge&logo=linkedin)](https://www.linkedin.com/in/AnmolMogalayi)  
+[![Email](https://img.shields.io/badge/Email-anmolmogalayi%40gmail.com-red?style=for-the-badge&logo=gmail)](mailto:anmolmogalayi@gmail.com)
 
 
